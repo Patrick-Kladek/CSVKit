@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDF86D932A0E6C5000BE5BCC"
-               BuildableName = "CHCSVKit.framework"
-               BlueprintName = "CHCSVKit"
-               ReferencedContainer = "container:CHCSVKit.xcodeproj">
+               BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
+               BuildableName = "CHCSVKit"
+               BlueprintName = "CSVKitTestApp"
+               ReferencedContainer = "container:CSVKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,7 +38,18 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      viewDebuggingEnabled = "No">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
+            BuildableName = "CHCSVKit"
+            BlueprintName = "CSVKitTestApp"
+            ReferencedContainer = "container:CSVKit.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -46,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDF86D932A0E6C5000BE5BCC"
-            BuildableName = "CHCSVKit.framework"
-            BlueprintName = "CHCSVKit"
-            ReferencedContainer = "container:CHCSVKit.xcodeproj">
+            BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
+            BuildableName = "CHCSVKit"
+            BlueprintName = "CSVKitTestApp"
+            ReferencedContainer = "container:CSVKit.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

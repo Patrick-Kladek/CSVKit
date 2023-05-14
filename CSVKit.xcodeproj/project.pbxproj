@@ -37,8 +37,8 @@
 		55B9931F160E376100D6548A /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		55B99320160E376100D6548A /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		55C61C60199C0B4600770AA2 /* Issue65.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Issue65.csv; sourceTree = "<group>"; };
-		8DD76FA10486AA7600D96B5E /* CHCSVKit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CHCSVKit; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF86D942A0E6C5000BE5BCC /* CHCSVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHCSVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD76FA10486AA7600D96B5E /* CSVKit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSVKit; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF86D942A0E6C5000BE5BCC /* CSVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF86D962A0E6C5000BE5BCC /* CHCSVKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +104,9 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DD76FA10486AA7600D96B5E /* CHCSVKit */,
+				8DD76FA10486AA7600D96B5E /* CSVKit */,
 				557FD0531204A70D009FCDBA /* Unit Tests.xctest */,
-				CDF86D942A0E6C5000BE5BCC /* CHCSVKit.framework */,
+				CDF86D942A0E6C5000BE5BCC /* CSVKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 			productReference = 557FD0531204A70D009FCDBA /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8DD76F960486AA7600D96B5E /* CHCSVKitTestApp */ = {
+		8DD76F960486AA7600D96B5E /* CSVKitTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CHCSVKitTestApp" */;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CSVKitTestApp" */;
 			buildPhases = (
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
@@ -186,15 +186,15 @@
 			);
 			dependencies = (
 			);
-			name = CHCSVKitTestApp;
+			name = CSVKitTestApp;
 			productInstallPath = "$(HOME)/bin";
 			productName = CHCSVParser;
-			productReference = 8DD76FA10486AA7600D96B5E /* CHCSVKit */;
+			productReference = 8DD76FA10486AA7600D96B5E /* CSVKit */;
 			productType = "com.apple.product-type.tool";
 		};
-		CDF86D932A0E6C5000BE5BCC /* CHCSVKit */ = {
+		CDF86D932A0E6C5000BE5BCC /* CSVKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF86D982A0E6C5000BE5BCC /* Build configuration list for PBXNativeTarget "CHCSVKit" */;
+			buildConfigurationList = CDF86D982A0E6C5000BE5BCC /* Build configuration list for PBXNativeTarget "CSVKit" */;
 			buildPhases = (
 				CDF86D8F2A0E6C5000BE5BCC /* Headers */,
 				CDF86D902A0E6C5000BE5BCC /* Sources */,
@@ -205,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = CHCSVKit;
+			name = CSVKit;
 			productName = CSVKit;
-			productReference = CDF86D942A0E6C5000BE5BCC /* CHCSVKit.framework */;
+			productReference = CDF86D942A0E6C5000BE5BCC /* CSVKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CHCSVKit" */;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CSVKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -239,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DD76F960486AA7600D96B5E /* CHCSVKitTestApp */,
+				8DD76F960486AA7600D96B5E /* CSVKitTestApp */,
 				557FD0521204A70D009FCDBA /* Unit Tests */,
-				CDF86D932A0E6C5000BE5BCC /* CHCSVKit */,
+				CDF86D932A0E6C5000BE5BCC /* CSVKit */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = CHCSVKit;
+				PRODUCT_NAME = CSVKit;
 			};
 			name = Debug;
 		};
@@ -318,7 +318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = CHCSVKit;
+				PRODUCT_NAME = CSVKit;
 			};
 			name = Release;
 		};
@@ -422,6 +422,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
 				INFOPLIST_FILE = "Unit Tests/Unit Tests-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
@@ -449,6 +450,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
 				INFOPLIST_FILE = "Unit Tests/Unit Tests-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
@@ -582,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CHCSVKitTestApp" */ = {
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "CSVKitTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927508733DD40010E9CD /* Debug */,
@@ -591,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CHCSVKit" */ = {
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "CSVKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927908733DD40010E9CD /* Debug */,
@@ -609,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF86D982A0E6C5000BE5BCC /* Build configuration list for PBXNativeTarget "CHCSVKit" */ = {
+		CDF86D982A0E6C5000BE5BCC /* Build configuration list for PBXNativeTarget "CSVKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDF86D992A0E6C5000BE5BCC /* Debug */,
