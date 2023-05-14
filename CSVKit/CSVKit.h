@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char CSVKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CSVKit/PublicHeader.h>
 
-#import <CHCSVKit/CHCSVParser.h>
+#import <CSVKit/CHCSVParser.h>

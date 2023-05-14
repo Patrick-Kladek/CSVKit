@@ -17,8 +17,8 @@
 		55F79EE01682D6B60095E9D5 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B99320160E376100D6548A /* CHCSVParser.m */; };
 		8DD76F9A0486AA7600D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
-		CDF86D972A0E6C5000BE5BCC /* CHCSVKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF86D962A0E6C5000BE5BCC /* CHCSVKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDF86D9B2A0E6C7900BE5BCC /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B9931F160E376100D6548A /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBD3E462A1141B400C8C5D1 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B9931F160E376100D6548A /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF86D972A0E6C5000BE5BCC /* CSVKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF86D962A0E6C5000BE5BCC /* CSVKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF86D9C2A0E6C7D00BE5BCC /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B99320160E376100D6548A /* CHCSVParser.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,7 @@
 		55C61C60199C0B4600770AA2 /* Issue65.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Issue65.csv; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* CSVKit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSVKit; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF86D942A0E6C5000BE5BCC /* CSVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF86D962A0E6C5000BE5BCC /* CHCSVKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVKit.h; sourceTree = "<group>"; };
+		CDF86D962A0E6C5000BE5BCC /* CSVKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				5560A19D1737433900DDD1D3 /* Unit Tests */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
-				CDF86D952A0E6C5000BE5BCC /* CHCSVKit */,
+				CDF86D952A0E6C5000BE5BCC /* CSVKit */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
 			name = CHCSVParser;
@@ -134,13 +134,13 @@
 			path = "Unit Tests";
 			sourceTree = "<group>";
 		};
-		CDF86D952A0E6C5000BE5BCC /* CHCSVKit */ = {
+		CDF86D952A0E6C5000BE5BCC /* CSVKit */ = {
 			isa = PBXGroup;
 			children = (
 				5516BCBA12578DA90025F235 /* CHCSVParser */,
-				CDF86D962A0E6C5000BE5BCC /* CHCSVKit.h */,
+				CDF86D962A0E6C5000BE5BCC /* CSVKit.h */,
 			);
-			path = CHCSVKit;
+			path = CSVKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +150,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF86D972A0E6C5000BE5BCC /* CHCSVKit.h in Headers */,
-				CDF86D9B2A0E6C7900BE5BCC /* CHCSVParser.h in Headers */,
+				CDF86D972A0E6C5000BE5BCC /* CSVKit.h in Headers */,
+				CDBD3E462A1141B400C8C5D1 /* CHCSVParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

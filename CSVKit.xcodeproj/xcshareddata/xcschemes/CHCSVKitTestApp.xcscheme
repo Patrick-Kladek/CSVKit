@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-               BuildableName = "CHCSVKit"
+               BuildableName = "CSVKit"
                BlueprintName = "CSVKitTestApp"
                ReferencedContainer = "container:CSVKit.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-            BuildableName = "CHCSVKit"
+            BuildableName = "CSVKit"
             BlueprintName = "CSVKitTestApp"
             ReferencedContainer = "container:CSVKit.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-            BuildableName = "CHCSVKit"
+            BuildableName = "CSVKit"
             BlueprintName = "CSVKitTestApp"
             ReferencedContainer = "container:CSVKit.xcodeproj">
          </BuildableReference>
